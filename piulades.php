@@ -8,4 +8,9 @@ Author: Marc Bellido
 Author URI: https://github.com/mabedo1718daw2
 License: GNU GPLv3
 */
+function funcio_piulades($atr,$text){
+	return '<a href="http://twitter.com/'.$atr['usuari'].'">'.$text..'</a>';
+}
+
+add_shortcode('piulades', 'funcio_piulades');
 ?>
